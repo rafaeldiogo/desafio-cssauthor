@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-principal {
+    background-color: #252323;
+    height: 60px;
+    width: 100%;
+}
+
+main {
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.logo {
+    padding: 16px; 
+    width: 70%;  
+    float: left; 
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+    height: 60px;
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
