@@ -1,123 +1,151 @@
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
 }
 
 ul {
-    padding: 0 !important;
+  padding: 0 !important;
 }
 
 .menu-principal {
-    background-color: #252323;
-    height: 60px;
-    width: 100%;
+  background-color: #252323;
+  height: 60px;
+  width: 100%;
 }
 
 main {
-    width: 980px;
-    margin: 0 auto;
-    position: relative;
-
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .logo {
-    padding: 16px; 
-    width: 70%;  
-    float: left; 
+  padding: 16px;
+  width: 70%;
+  float: left;
 }
 
 .redes-sociais {
-    width: 25%;
-    float: right;
-    height: 60px;
+  width: 25%;
+  float: right;
+  height: 60px;
 }
 
 .redes-sociais ul li {
-    display: inline-block;
-    margin-left: 15px;
+  display: inline-block;
+  margin-left: 15px;
 }
 
 .col-100 {
-   width: 100%; 
-   float: left;
-   border-bottom: 4px solid #efefef;
-   height: 80px;
+  width: 100%;
+  float: left;
+  border-bottom: 4px solid #efefef;
+  height: 80px;
 }
 
 .header-2 {
-    background-color: #ffffff;
-    width: 980px;
-    margin: 0 auto;
-    padding: 16px;
+  background-color: #ffffff;
+  width: 980px;
+  margin: 0 auto;
+  padding: 16px;
 }
 
 .menu {
-   width: 70%; 
-   float: left;
+  width: 70%;
+  float: left;
 }
 
 .menu ul li {
-   display: inline-block; 
-   margin-left: 15px;
+  display: inline-block;
+  margin-left: 15px;
 }
 
 .menu ul li:hover {
-    border-bottom: 3px solid #00bac6;
-    height: 49px;
- }
+  border-bottom: 3px solid #00bac6;
+  height: 49px;
+}
 
 .menu ul li a {
-    color: #8b8b8b;
-    text-decoration: none;
-    font-size: 18px;    
- }
+  color: #8b8b8b;
+  text-decoration: none;
+  font-size: 18px;
+}
 
- .menu ul li a:hover {
-    color: #00bac6;
- }
+.menu ul li a:hover {
+  color: #00bac6;
+}
 
- .busca {
-     width: 30%;
-     float: right;
- }
+.busca {
+  width: 30%;
+  float: right;
+}
 
- .busca input {
-     margin-top: 0px;
-     height: 25px; 
-     margin-left: 5px; 
-     padding: 6px;
-     width: 190px;
-     background-image: url('../img/logo-busca.png');
-     background-repeat: no-repeat;
-     background-position: 94%;
-     border: 1px solid #d6d6d6;
- }
+.busca input {
+  margin-top: 0px;
+  height: 25px;
+  margin-left: 5px;
+  padding: 6px;
+  width: 190px;
+  background-image: url("../img/logo-busca.png");
+  background-repeat: no-repeat;
+  background-position: 94%;
+  border: 1px solid #d6d6d6;
+}
 
- button.slick-prev {
-    display: inline-block;
-    font-size: 0;
-    border: none;
-    height: 51px;
-    width: 25px;
-    background-color: transparent;
-    background-image: url('../img/arrow-left.png');
-    z-index: 9;
-    position: absolute;
-    top: 31%;
-    left: 16%;
- }
+button.slick-prev {
+  display: inline-block;
+  font-size: 0;
+  border: none;
+  height: 51px;
+  width: 25px;
+  background-color: transparent;
+  background-image: url("../img/arrow-left.png");
+  z-index: 9;
+  position: absolute;
+  top: 31%;
+  left: 16%;
+  cursor: pointer;
+}
 
- button.slick-next {
-    display: inline-block;
-    font-size: 0;
-    border: none;
-    height: 51px;
-    width: 25px;
-    background-color: transparent;
-    background-image: url('../img/arrow-right.png');
-    z-index: 9;
-    position: absolute;
-    top: 31%;
-    right: 16%;
- }
+button.slick-next {
+  display: inline-block;
+  font-size: 0;
+  border: none;
+  height: 51px;
+  width: 25px;
+  background-color: transparent;
+  background-image: url("../img/arrow-right.png");
+  z-index: 9;
+  position: absolute;
+  top: 31%;
+  right: 16%;
+  cursor: pointer;
+}
+
+.slick-dots li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.slick-dots {
+  margin: 0 auto;
+  width: 50%;
+  position: absolute;
+  left: 45%;
+  top: 90%;
+}
+
+.slick-dots .slick-active button {
+  background: #00bac6;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  background: transparent;
+  cursor: pointer;
+}
