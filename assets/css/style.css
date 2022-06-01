@@ -164,7 +164,6 @@ button.slick-next {
   color: #818181;
   text-transform: uppercase;
   font-size: 30px;
-  
 }
 
 .texto-destaque strong {
@@ -175,3 +174,56 @@ button.slick-next {
   color: #9a9a9a;
   font-size: 15px;
 }
+
+.col-3 {
+  width: 29%;
+  float: left;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.bloco-texto {
+  margin-top: 2em;
+}
+
+.bloco-texto p {
+  color: #9a9a9a;
+}
+
+.bloco-texto h3 {
+  color: #7b7b7b;
+  font-weight: normal !important;
+}
+
+.bloco-texto strong {
+  color: #7b7b7b;
+}
+
+.bloco-imagem img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.bloco-imagem {
+  height: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 10px;
+  border: 1px solid #c5c5c5;
+}
+
+.bloco-imagem strong, p {
+  text-align: left;
+}
+
+.bloco-texto {
+  margin-top: 3em;
+}
+
+.bloco-imagens-texto {
+  background-color: #eeeeee;
+}
+
