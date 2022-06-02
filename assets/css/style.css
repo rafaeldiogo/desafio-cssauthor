@@ -227,3 +227,32 @@ button.slick-next {
   background-color: #eeeeee;
 }
 
+.bloco-imagens-texto::before {
+  width: 100%;
+  display: inline-block;
+  content: '';
+  height: 51px;
+  background: #ffffff;
+  background-image: url('/assets/img/seta-vertical.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.col-4 {
+  float: left;
+  width: 25%;
+  text-align: center;
+  line-height: 1em;
+}
+
+.col-4 img {
+  margin: 0 auto;
+  padding-top: 1em;
+  cursor: pointer;
+}
+
+
+
+
+
+
